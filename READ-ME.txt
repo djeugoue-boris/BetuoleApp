@@ -1,0 +1,70 @@
+# Betuole3
+
+## Présentation
+
+Betuole3 est une application web développée en PHP destinée à la gestion d’un site vitrine ou d’un centre de formation.
+Développé par : **Evarice Kuete Tezempa**
+Email : evaricekuete2@gmail.com
+Téléphone : 679164801
+
+---
+
+## Prérequis
+
+- **PHP** version 7.4 ou supérieure (recommandé : PHP 8.x)
+- **MySQL** ou MariaDB (pour la base de données)
+- **XAMPP** ou **WAMP** (pour un environnement local sous Windows)
+- **Composer** (pour la gestion des dépendances PHP)
+- Extensions PHP requises :  
+  - `mbstring`
+  - `pdo_mysql`
+  - `openssl`
+  - `fileinfo`
+  - `gd`
+- Navigateur web moderne (Chrome, Firefox, Edge…)
+
+---
+
+## Installation
+
+1. **Cloner ou copier le projet**  
+   Placez le dossier du projet dans le répertoire `htdocs` de XAMPP ou le dossier `www` de WAMP.
+
+2. **Installer les dépendances PHP**  
+   Ouvrez un terminal dans le dossier du projet et exécutez :
+   ```
+   composer install
+   ```
+
+3. **Importer la base de données**  
+   - Ouvrez phpMyAdmin.
+   - Créez une nouvelle base de données (ex : `sitevitrinedb`).
+   - Importez le fichier `db/sitevitrinedb.sql`.
+
+4. **Configurer la connexion à la base de données**  
+   - Ouvrez le fichier `config.php`.
+   - Modifiez les paramètres (`host`, `dbname`, `user`, `password`) selon votre configuration locale.
+
+5. **Lancer le serveur local**  
+   - Démarrez Apache et MySQL via XAMPP/WAMP.
+   - Accédez à l’application via `http://localhost/betuole3` dans votre navigateur.
+
+---
+
+## Extensions et outils recommandés
+
+- **Visual Studio Code** (éditeur de code)
+  - Extensions utiles : PHP Intelephense, PHP Debug, Prettier, DotENV
+- **XAMPP** version 8.x (ou WAMP équivalent)
+- **Composer** dernière version
+
+---
+
+## Contact
+
+Pour toute question ou suggestion, contactez-moi :  
+Evarice Kuete Tezempa  
+Email : evaricekuete2@gmail.com  
+Téléphone : 679164801
+
+---
